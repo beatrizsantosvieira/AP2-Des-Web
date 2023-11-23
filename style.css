@@ -1,0 +1,57 @@
+#elenco-feminino{
+    flex-wrap: wrap;
+    color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#elenco-masculino{
+    flex-wrap: wrap;
+    color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#pai{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    #elenco-masculino{
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+    #elenco-feminino{
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #elenco-masculino{
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+    #elenco-feminino{
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+}
+
+body{
+   background-color: rgb(255, 237, 205);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(36, 36, 37);
+}
+
+.jogador{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
